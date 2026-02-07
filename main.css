@@ -64,9 +64,40 @@ h4{
     height: 120px;
     gap: 40px;
 }
-
-
-
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    width: 721px;
+    height: auto;
+    gap: 40px;
+}
+.iconvisa{
+    display: flex;
+    gap: 25px;
+}
+input{
+    background-color: #ffffff;
+    color: #151515;
+    border: 1px solid #151515;
+    width: 280px;
+    height: 52px;
+}
+.btn2{
+    background-color: #151515;
+    width:198px ;
+    height: 56px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.inputbutton{
+    display: flex;
+}
+.main-alwaus{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
 
 
 
