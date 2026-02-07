@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/neue-machina');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&family=Inter:opsz,wght@14..32,100..900&family=Ruslan+Display&display=swap');
 *{
     margin: 0px;
 }
@@ -9,25 +9,36 @@
     display: none;
 }
 body{
-  font-family: 'Neue Machina', sans-serif;
-  font-weight: 500;
+
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 18px;
-  color: #151515;
 }
 p{
     font-size: 16px;
     font-weight: 500;
 }
-
+.style{
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 h1{
     font-size: 80px;
-    font-family: 'Neue Machina', sans-serif;
     font-weight: 800;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 h2{
     font-size: 60px;
-    font-family: 'Neue Machina', sans-serif;
     font-weight: 750;
+
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h3{
     font-size: 20px;
@@ -159,10 +170,79 @@ input{
 .abouttext2{
     line-height: 220%;
 }
+.selectlevelflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap: 20px;
+} 
+.abouttext3{
+    width: 755px;
+    height: auto;
+    text-align: end;
+}
+.month{
+    width: 200px;
+    height: 90px;
+    display: flex;
+}
+.ptext{
+    font-weight: 700;
+}
+.ptext3{
+    font-weight: 700;
+    display: flex;
+    align-items: end;
+}
+.box{
+    width: 406px;
+    height: 554px;
+    background-color:#F0F0F0 ;
+    border: 1px solid #151515;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.dotblack2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
 
-
-
-
+}
+.btn4{
+    width: 386px ;
+    height: 52px;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #151515;
+    margin-top: 120px;
+    border: none;
+}
+.dotblackfull{
+    margin-top: 30px;
+}
+.box2{
+    background-color: #151515;
+    color: #FFFFFF;
+}
+.btn5{
+    background-color: #F0F0F0;
+    color: #151515;
+    border: none;
+}
+.boxfulwrap{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    margin: auto;
+}
+.Pricing{
+    margin-top: 190px;
+}
 
 
 
@@ -240,6 +320,27 @@ h4{
 }
 .iconflexetxt{
     gap: 30px;
+}
+.selectlevelflex{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.abouttext3{
+    width: 90%;
+    text-align: start;
+}
+.boxfulwrap{
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.btn4{
+    width: 100%;
 }
 }
     
