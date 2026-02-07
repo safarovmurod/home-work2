@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&family=Inter:opsz,wght@14..32,100..900&family=Ruslan+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap");
 *{
     margin: 0px;
 }
@@ -10,9 +11,12 @@
 }
 body{
 
-  font-family: "Ruslan Display", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+
+  font-family: "Space Grotesk", "Inter Tight", "Sora", sans-serif;
+  font-weight: 400; 
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: #151515;
   font-size: 18px;
 }
 p{
@@ -42,13 +46,19 @@ h2{
 }
 h3{
     font-size: 20px;
-    font-family: 'Neue Machina', sans-serif;
-    font-weight: 400;
+    font-family: "Space Grotesk", "Inter Tight", "Sora", sans-serif;
+  font-weight: 400; 
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: #151515;
 }
 h4{
     font-size: 28px;
-    font-family: 'Neue Machina', sans-serif;
-    font-weight: 400;
+    font-family: "Space Grotesk", "Inter Tight", "Sora", sans-serif;
+  font-weight: 400; 
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  color: #151515;
 }
 .btn{
     width: 145px;
@@ -95,11 +105,12 @@ input{
     border: 1px solid #151515;
     width: 280px;
     height: 52px;
+    padding: 0 20px;
 }
 .btn2{
     background-color: #151515;
     width:198px ;
-    height: 56px;
+    height: 54px;
     border: none;
     font-size: 18px;
     color: #FFFFFF;
@@ -243,6 +254,47 @@ input{
 .Pricing{
     margin-top: 190px;
 }
+.abouttext4{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.common{
+    margin-top: 20px;
+}
+.howmuch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconplus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.hat{
+    border: 1px solid #151515;
+    margin-top: 10px;
+}
+.Faqs{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.theonline{
+    width: 532px;
+}
+.contributors{
+    width: 682px
+}
+
+
+
+
+
+
 
 
 
@@ -251,6 +303,7 @@ input{
 @media(max-width:510px) {
   .comp{
     display: none;
+
 }
 .phone{
     display: block;
@@ -342,5 +395,28 @@ h4{
 .btn4{
     width: 100%;
 }
+.Faqs{
+    flex-direction: column;
+    width: 100%;
+}
+.abouttext4{
+    width: 98%;
+    margin: auto;
+}
+.theonline{
+    width: 90%;
+}
+.howmuch{
+  width: 100%;
+}
+.how{
+    font-size: 13px;
+}
+.contributors{
+   width: 90%;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
 }
     
