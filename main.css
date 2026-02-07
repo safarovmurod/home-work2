@@ -24,7 +24,7 @@ h1{
 h2{
     font-size: 60px;
     font-family: 'Neue Machina', sans-serif;
-    font-weight: 400;
+    font-weight: 750;
 }
 h3{
     font-size: 20px;
@@ -98,6 +98,39 @@ input{
     justify-content: space-around;
     margin-top: 50px;
 }
+.abouttext{
+    width:750px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn3{
+    width: 108px;
+    height: 36px;
+    background-color: #F0F0F0;
+    border: 1px solid #151515;
+    font-weight: 800;
+}
+.dotblackflex{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -127,6 +160,42 @@ h4{
     display: flex;
     justify-content: space-between;
     width: 90%;
+}
+.main-alwaus{
+    flex-direction: column;
+    width: 100%;
+}
+.inputbutton{
+    width: 90%;
+    margin: auto;
+}
+.input{
+    width: 290px;
+    padding: 0px 10px;
+}
+.btn2{
+    width: 140px;
+    height: 54px;
+    font-size: 16px;
+}
+.img{
+    width: 100%;
+}
+.boxtext{
+    width: 90%;
+    margin: auto;
+}
+.iconvisa{
+    width: 90%;
+    margin: auto;
+}
+.aboutus{
+    flex-direction: column-reverse;
+    margin-top: 70px;
+}
+.abouttext{
+    width: 95%;
+    gap: 30px;
 }
 }
     
