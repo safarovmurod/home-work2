@@ -10,10 +10,13 @@
 }
 body{
   font-family: 'Neue Machina', sans-serif;
-    font-weight: 400;
-    letter-spacing: -1px;
+  font-weight: 500;
   font-size: 18px;
   color: #151515;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
 }
 
 h1{
@@ -123,8 +126,39 @@ input{
     justify-content: space-around;
     margin-top: 50px;
 }
+.libriesiconflex{
+    display: flex;
+    gap: 20px;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+.Howitworks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.libriesiconflex{
+    display: flex;
+    flex-direction: column;
 
-
+}
+.iconflexetxt{
+    display: flex;
+    margin-top: 40px;
+}
+.abouttext2{
+    width: 750px;
+    line-height: normal;
+}
+.abouttext2{
+    line-height: 220%;
+}
 
 
 
@@ -195,6 +229,16 @@ h4{
 }
 .abouttext{
     width: 95%;
+    gap: 30px;
+}
+.Howitworks{
+    flex-direction: column;
+    width: 100%;
+}
+.abouttext2{
+    width: 90%;
+}
+.iconflexetxt{
     gap: 30px;
 }
 }
